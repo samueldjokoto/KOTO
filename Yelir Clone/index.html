@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>KOTO WORLD</title>
+</head>
+<body>
+    <span id="width" class="width-container"></span>
+    <div class="banner">
+        <div class="slider">
+            <div class="text1"><p>DHL INTERNATIONAL DELIVERY</p></div>
+            <div class="text2"><p>FREE UK NEXT WORKING DAY DELIVERY</p></div>
+            <div class="text3"><p>ORDER NOW</p></div>
+        </div>
+    </div>
+    <nav>
+        <div class="navbar">
+        <span class="menubtn" id="menu-btn">&#9776</span>
+        <h1 id="logo">KOTO.</h1>
+        <ul>
+            <li><a href="#">Latest Releases</a></li>
+            <li><a href="#">Clothing</a>
+                <ul class="drop-menu">
+                        <li><a href="#">Tees</a></li>
+                        <li><a href="#">Bottoms</a></li>
+                        <li><a href="#">Combats</a></li>
+                        <li><a href="#">Joggers</a></li>
+                        <li><a href="#">Tracksuits</a></li>
+                        <li><a href="#">Hoodies</a></li>
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Outerwear</a></li>
+                    </ul>
+            </li>
+            <li><a href="#">Headwear</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Performance</a></li>
+        </ul>
+        <div class="nav-items">
+            <div class="search"><iconify-icon icon="ei:search"></iconify-icon></div>
+            <div class="account"><iconify-icon icon="mdi-light:account"></iconify-icon></div>
+            <div class="basket"><iconify-icon icon="solar:cart-4-outline"></iconify-icon></div>
+            </div>
+            <div class="search-box" id="searchbox">
+                <div class="search-container">
+                <input class="search-input" type="text" placeholder="Search" >
+                    </div>
+                    <a href="#" class="search-close-btn">&#10006</a>
+                </div>
+            </div>
+                <div class="sideNav" id="sidenav">
+            <a href="#" class="close-btn" id="close-btn">&#10006</a>
+            <div class="side-links">
+            <a href="#">Latest Releases</a>
+            <a href="#">Clothing</a>
+            <a href="#">Headwear</a>
+            <a href="#">Accessories</a>
+            <a href="#">Performance</a>
+            </div>
+            <div class="sideNav-login">
+            <a href="#">Log in</a>
+            </div>
+        </div>
+    </nav>
+    <div class="hero" id="hero">
+            <button class="online-btn">ONLINE NOW!</button>
+    </div>
+    <main>
+        <div class="latest-section">
+            <div class="latest-title-section">
+            <div class="title">
+            <h2>koto.</h2>
+            <h1>latest releases</h1>
+            </div>
+            <button class="view-btn">view all</button>
+            </div>
+           
+            <div class="latest-product">
+                <div class="latest-product-container"> 
+                     <!-- render products -->            
+            </div>
+            <!-- <div class="page-button-section">
+            <button class="page-btn"> < </button>
+             <button class="page-btn"> > </button>
+             </div> -->
+        </div>
+    </main>
+</body>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="./index.js" type="module"></script>
+</html>
